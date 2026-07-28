@@ -7,7 +7,7 @@ A lightweight, **Docker-free** environment for running [Hermes Agent](https://gi
 ## 📁 Repository File Structure
 
 ```text
-gregdavies
+/workspaces/gregdavies91/
 ├── requirements.txt            # Python dependencies
 ├── .gitignore                  # Git ignore rules
 └── README.md                   # Workspace documentation
