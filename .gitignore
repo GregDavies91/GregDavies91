@@ -1,0 +1,19 @@
+# Python Caches
+__pycache__/
+*.py[cod]
+
+# Environment / Secrets
+.env
+.env.*
+
+# Generated Outputs & Teaching Files
+*.xlsx
+*.csv
+*.pdf
+*.log
+*.docx
+*.doc
+
+# IDE & OS Files
+.vscode/
+.DS_Store
