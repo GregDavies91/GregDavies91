@@ -7,7 +7,7 @@ __pycache__/
 .env.*
 
 # Generated Outputs & Teaching Files
-# mrdavies/
+mrdavies/
 greg/
 *.xlsx
 *.csv
