@@ -35,11 +35,11 @@ modal setup
 ```
 *(Alternatively, set `MODAL_TOKEN_ID` and `MODAL_TOKEN_SECRET` in `~/.hermes/.env`)*
 
-### 3. Configure Hermes for Modal Backend
-Open `~/.hermes/config.yaml` and set the execution backend to `modal`:
+### 3. Configure Hermes for Local Backend
+Open `~/.hermes/config.yaml` and set the execution backend to `local`:
 ```yaml
 terminal:
-  backend: modal
+  backend: local
 ```
 
 Run interactive setup to link your model provider API key:
@@ -149,15 +149,15 @@ nano ~/.hermes/config.yaml
 ```
 
 
-2. Set the terminal backend to `modal`:
+2. Set the terminal backend to `local`:
 ```yaml
 terminal:
-  backend: modal
+  backend: local
 
 ```
 
 
-*(Or add `HERMES_TERMINAL_BACKEND=modal` to `~/.hermes/.env`)*
+*(Or add `HERMES_TERMINAL_BACKEND=local` to `~/.hermes/.env`)*
 3. Run interactive setup to link your LLM provider (e.g., Nous Portal, OpenRouter, or OpenAI API key):
 ```bash
 hermes config
