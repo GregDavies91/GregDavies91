@@ -44,7 +44,7 @@ terminal:
 
 Run interactive setup to link your model provider API key:
 ```bash
-hermes config
+hermes setup
 ```
 
 ---
